@@ -1,0 +1,71 @@
+Dependencies for Project 'uart_project', Target 'NRF52832_XXAA': (DO NOT MODIFY !)
+F (.\modules\nrfx\mdk\arm_startup_nrf52.s)(0x5DA9DB9E)(--cpu Cortex-M4.fp --li -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Device\Nordic\nRF52832\Include--pd "__UVISION_VERSION SETA 527"--list .\listings\arm_startup_nrf52.lst --xref -o .\objects\arm_startup_nrf52.o --depend .\objects\arm_startup_nrf52.d)
+F (.\modules\nrfx\mdk\system_nrf52.c)(0x5DA9DB9E)(--c99 --gnu -c --cpu Cortex-M4.fp --li -g -O0 --apcs=interwork --split_sections -I .\modules\nrfx\templates -I .\modules\nrfx\templates\nRF52832 -I .\modules\nrfx\mdk -I .\modules\nrfx\hal -I .\modules\nrfx\drivers -I .\components\toolchain\cmsis\include -I .\include -I .\modules\nrfx-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Device\Nordic\nRF52832\Include-D__UVISION_VERSION="527" -DNRF52832_XXAA-o .\objects\system_nrf52.o --omf_browse .\objects\system_nrf52.crf --depend .\objects\system_nrf52.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (modules\nrfx\mdk\nrf.h)(0x5DA9DB9E)
+I (modules\nrfx\mdk\nrf52.h)(0x5DA9DB9E)
+I (.\components\toolchain\cmsis\include\core_cm4.h)(0x5DA9DB86)
+I (.\components\toolchain\cmsis\include\core_cmInstr.h)(0x5DA9DB86)
+I (.\components\toolchain\cmsis\include\cmsis_armcc.h)(0x5DA9DB86)
+I (.\components\toolchain\cmsis\include\core_cmFunc.h)(0x5DA9DB86)
+I (.\components\toolchain\cmsis\include\core_cmSimd.h)(0x5DA9DB86)
+I (modules\nrfx\mdk\system_nrf52.h)(0x5DA9DB9E)
+I (modules\nrfx\mdk\system_nrf.h)(0x5DA9DB9E)
+I (modules\nrfx\mdk\nrf52_bitfields.h)(0x5DA9DB9E)
+I (modules\nrfx\mdk\nrf51_to_nrf52.h)(0x5DA9DB9E)
+I (modules\nrfx\mdk\nrf52_name_change.h)(0x5DA9DB9E)
+I (modules\nrfx\mdk\compiler_abstraction.h)(0x5DA9DB9E)
+F (.\user\main.c)(0x5FC4A6C5)(--c99 --gnu -c --cpu Cortex-M4.fp --li -g -O0 --apcs=interwork --split_sections -I .\modules\nrfx\templates -I .\modules\nrfx\templates\nRF52832 -I .\modules\nrfx\mdk -I .\modules\nrfx\hal -I .\modules\nrfx\drivers -I .\components\toolchain\cmsis\include -I .\include -I .\modules\nrfx-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Device\Nordic\nRF52832\Include-D__UVISION_VERSION="527" -DNRF52832_XXAA-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\include\all_include.h)(0x5FC4A695)
+I (.\modules\nrfx\mdk\nrf52.h)(0x5DA9DB9E)
+I (.\components\toolchain\cmsis\include\core_cm4.h)(0x5DA9DB86)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\components\toolchain\cmsis\include\core_cmInstr.h)(0x5DA9DB86)
+I (.\components\toolchain\cmsis\include\cmsis_armcc.h)(0x5DA9DB86)
+I (.\components\toolchain\cmsis\include\core_cmFunc.h)(0x5DA9DB86)
+I (.\components\toolchain\cmsis\include\core_cmSimd.h)(0x5DA9DB86)
+I (.\modules\nrfx\mdk\system_nrf52.h)(0x5DA9DB9E)
+I (.\modules\nrfx\mdk\system_nrf.h)(0x5DA9DB9E)
+I (.\include\led.h)(0x5FC4A61B)
+I (.\modules\nrfx\hal\nrf_gpio.h)(0x5DAA1F14)
+I (.\modules\nrfx\nrfx.h)(0x5DAA1F14)
+I (.\modules\nrfx\templates\nRF52832\nrfx_config.h)(0x5DA9DB9E)
+I (.\modules\nrfx\drivers/nrfx_common.h)(0x5DAA1F14)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\modules\nrfx\mdk\nrf.h)(0x5DA9DB9E)
+I (.\modules\nrfx\mdk\nrf52_bitfields.h)(0x5DA9DB9E)
+I (.\modules\nrfx\mdk\nrf51_to_nrf52.h)(0x5DA9DB9E)
+I (.\modules\nrfx\mdk\nrf52_name_change.h)(0x5DA9DB9E)
+I (.\modules\nrfx\mdk\compiler_abstraction.h)(0x5DA9DB9E)
+I (.\modules\nrfx\mdk\nrf_peripherals.h)(0x5DA9DB9E)
+I (.\modules\nrfx\mdk\nrf52832_peripherals.h)(0x5DA9DB9E)
+I (.\modules\nrfx\templates\nrfx_glue.h)(0x5DAA1F14)
+I (.\modules\nrfx\drivers/nrfx_errors.h)(0x5DAA1F14)
+F (.\source\led.c)(0x5FC4A6A3)(--c99 --gnu -c --cpu Cortex-M4.fp --li -g -O0 --apcs=interwork --split_sections -I .\modules\nrfx\templates -I .\modules\nrfx\templates\nRF52832 -I .\modules\nrfx\mdk -I .\modules\nrfx\hal -I .\modules\nrfx\drivers -I .\components\toolchain\cmsis\include -I .\include -I .\modules\nrfx-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Device\Nordic\nRF52832\Include-D__UVISION_VERSION="527" -DNRF52832_XXAA-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (.\include\led.h)(0x5FC4A61B)
+I (.\modules\nrfx\mdk\nrf52.h)(0x5DA9DB9E)
+I (.\components\toolchain\cmsis\include\core_cm4.h)(0x5DA9DB86)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\components\toolchain\cmsis\include\core_cmInstr.h)(0x5DA9DB86)
+I (.\components\toolchain\cmsis\include\cmsis_armcc.h)(0x5DA9DB86)
+I (.\components\toolchain\cmsis\include\core_cmFunc.h)(0x5DA9DB86)
+I (.\components\toolchain\cmsis\include\core_cmSimd.h)(0x5DA9DB86)
+I (.\modules\nrfx\mdk\system_nrf52.h)(0x5DA9DB9E)
+I (.\modules\nrfx\mdk\system_nrf.h)(0x5DA9DB9E)
+I (.\modules\nrfx\hal\nrf_gpio.h)(0x5DAA1F14)
+I (.\modules\nrfx\nrfx.h)(0x5DAA1F14)
+I (.\modules\nrfx\templates\nRF52832\nrfx_config.h)(0x5DA9DB9E)
+I (.\modules\nrfx\drivers/nrfx_common.h)(0x5DAA1F14)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\modules\nrfx\mdk\nrf.h)(0x5DA9DB9E)
+I (.\modules\nrfx\mdk\nrf52_bitfields.h)(0x5DA9DB9E)
+I (.\modules\nrfx\mdk\nrf51_to_nrf52.h)(0x5DA9DB9E)
+I (.\modules\nrfx\mdk\nrf52_name_change.h)(0x5DA9DB9E)
+I (.\modules\nrfx\mdk\compiler_abstraction.h)(0x5DA9DB9E)
+I (.\modules\nrfx\mdk\nrf_peripherals.h)(0x5DA9DB9E)
+I (.\modules\nrfx\mdk\nrf52832_peripherals.h)(0x5DA9DB9E)
+I (.\modules\nrfx\templates\nrfx_glue.h)(0x5DAA1F14)
+I (.\modules\nrfx\drivers/nrfx_errors.h)(0x5DAA1F14)
